@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 meta_data = {}
-with open("json_config/meta_data.py") as fp:
+with open("jsonconfig/meta_data.py") as fp:
     exec(fp.read(), meta_data)
 
 setup(
